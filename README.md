@@ -1,8 +1,7 @@
 # 🎬 K-Drama Bot
 
-Streamlit을 이용해서 만든 OpenAI의 GPT-3.5를 사용하는 챗봇입니다.
-
-[![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
+한국 드라마(Korean drama)를 활용한 한국어 챗봇입니다. 
+거대언어모델(LLM)로 OpenAI의 GPT-3.5를 사용하고 있습니다. 
 
 ### How to run it on your own machine
 

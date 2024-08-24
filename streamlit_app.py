@@ -4,7 +4,7 @@ from openai import OpenAI
 # Show title and description.
 st.title("🎬 K-Drama Bot")
 st.write(
-    "안녕하세요. 한국 드라마(K drama)를 활용한 챗봇입니다. "
+    "안녕하세요. 한국 드라마(Korean drama)를 활용한 한국어 챗봇입니다. "
     "여러분이 한국어를 배우는데 도움을 드리겠습니다. "
     "그런데 저와 대화를 하시려면 Open AI에서 API 키를 생성해서 아래 칸에 넣으셔야 합니다.^^ \n [Open AI API 키 생성하기](https://platform.openai.com/account/api-keys)."
     )
