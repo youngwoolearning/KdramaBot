@@ -1,4 +1,4 @@
-# 💬 K Drama Bot
+# 🎬 K-Drama Bot
 
 Streamlit을 이용해서 만든 OpenAI의 GPT-3.5를 사용하는 챗봇입니다.
 
