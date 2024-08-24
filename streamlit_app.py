@@ -2,7 +2,7 @@ import streamlit as st
 from openai import OpenAI
 
 # Show title and description.
-st.title("🎭 K-Drama Bot")
+st.title("🎬 K-Drama Bot")
 st.write(
     "안녕하세요. 한국 드라마(K drama)를 활용한 챗봇입니다. "
     "여러분이 한국어를 배우는데 도움을 드리겠습니다. "
