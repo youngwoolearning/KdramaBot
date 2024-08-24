@@ -4,17 +4,17 @@ from openai import OpenAI
 # Show title and description.
 st.title("💬 K Drama Bot")
 st.write(
-    "This is a simple chatbot that uses OpenAI's GPT-3.5 model to generate responses. "
-    "To use this app, you need to provide an OpenAI API key, which you can get [here](https://platform.openai.com/account/api-keys). "
-    "You can also learn how to build this app step by step by [following our tutorial](https://docs.streamlit.io/develop/tutorials/llms/build-conversational-apps)."
-)
+    "안녕하세요. 한국 드라마(K drama)를 활용한 챗봇입니다. "
+    "여러분이 한국어를 배우는데 도움을 드리겠습니다. "
+    "그런데 저와 대화를 하시려면 Open AI에서 API 키를 생성해서 아래 칸에 넣으셔야 합니다.^^ [Open AI API 키 생성하기](https://platform.openai.com/account/api-keys)."
+    )
 
 # Ask user for their OpenAI API key via `st.text_input`.
 # Alternatively, you can store the API key in `./.streamlit/secrets.toml` and access it
 # via `st.secrets`, see https://docs.streamlit.io/develop/concepts/connections/secrets-management
 openai_api_key = st.text_input("OpenAI API Key", type="password")
 if not openai_api_key:
-    st.info("Please add your OpenAI API key to continue.", icon="🗝️")
+    st.info("Open AI의 API 키를 넣어주세요.", icon="🗝️")
 else:
 
     # Create an OpenAI client.
@@ -32,7 +32,7 @@ else:
 
     # Create a chat input field to allow the user to enter a message. This will display
     # automatically at the bottom of the page.
-    if prompt := st.chat_input("What is up?"):
+    if prompt := st.chat_input("안녕하세요. 대화를 시작해볼까요?"):
 
         # Store and display the current prompt.
         st.session_state.messages.append({"role": "user", "content": prompt})

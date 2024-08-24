@@ -1,6 +1,6 @@
 # 💬 K Drama Bot
 
-A simple Streamlit app that shows how to build a chatbot using OpenAI's GPT-3.5.
+Streamlit을 이용해서 만든 OpenAI의 GPT-3.5를 사용하는 챗봇입니다.
 
 [![Open in Streamlit](https://static.streamlit.io/badges/streamlit_badge_black_white.svg)](https://chatbot-template.streamlit.app/)
 
